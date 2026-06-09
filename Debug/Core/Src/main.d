@@ -23,7 +23,18 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/projdefs.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/portable.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/task.h \
+ /home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/list.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -50,3 +61,14 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/projdefs.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/portable.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/task.h:
+/home/hailin/Projects/Master_RTOS/workspace1/proj1/ThirdParty/FreeRTOS/include/list.h:
